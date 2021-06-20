@@ -21,7 +21,7 @@
 		<rules>
 			<select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2" />
 			<select type="Proficiency" name="Tool Proficiency (Custom)" supports="Tool" optional="true"/>
-			<select type="Language" (Custom)" supports="Standard|Exotic"/>
+			<select type="Language" name= "Language (Custom)" supports="Standard|Exotic"/>
 		</rules>
 	</element>
 </elements>
