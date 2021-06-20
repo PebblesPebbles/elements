@@ -21,7 +21,7 @@
 		</setters>
 		<rules>
 			<select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2" />
-			<select type="Proficiency" name="Tool Proficiency (Custom)" supports="Tool" optional="true number="2"/>
+			<select type="Proficiency" name="Tool Proficiency (Custom)" supports="Tool" optional="true" number="2"/>
 		</rules>
 	</element>
 </elements>
