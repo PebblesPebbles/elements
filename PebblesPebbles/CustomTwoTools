@@ -4,7 +4,7 @@
 		<name>Custom Background</name>
 		<description>Custom background for selecting skills and tool proficiencies</description>
 		<update version="0.0.1">
-			<file name="CustomTwoTools.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoTools.xml" />
+			<file name="CustomTwoTools.xml" url="https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoTools.xml" />
 		</update>
 	</info>
 
