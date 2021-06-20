@@ -4,7 +4,7 @@
 		<name>Custom Background</name>
 		<description>Custom background for selecting skills, tool proficiencies and languages</description>
 		<update version="0.0.1">
-			<file name="Custom1.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoTools.xml" />
+			<file name="CustomTwoLanguages.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoLanguages.xml" />
 		</update>
 	</info>
 	<element name="Custom Background" type="Background" source="Homebrew" id="ID_PR_BACKGROUND_CUSTOM">
@@ -20,7 +20,7 @@
 		</setters>
 		<rules>
 			<select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2" />
-			<select type="Language" (Custom)" supports="Standard||Exotic" number="2"/>
+			<select type="Language" (Custom)" supports="Standard|Exotic" number="2"/>
 		</rules>
 	</element>
 </elements>
