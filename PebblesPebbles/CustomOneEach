@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Background</name>
+		<description>Custom background for selecting skills, 1 tool proficiency and 1 language</description>
+		<update version="0.0.1">
+			<file name="CustomOneEach.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomOneEach.xml" />
+		</update>
+	</info>
+	<element name="Custom Background" type="Background" source="Homebrew" id="ID_PR_BACKGROUND_CUSTOM">
+		<description>
+			<p>You have your own personal background, unlike that of any person before you. With an eclectic set of skills you set out to conquor the obstacles that live throws in front of you. Whether these skills prove usefull, only time will tell.</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient</li>
+				<li><strong>Tool Proficiencies and Languages (Optional):</strong> You can select one tool proficiency and one language</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="short">2 Skills, 1 Tool Proficiency, 1 Languages</set>
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Custom)" supports="Skill" number="2" />
+			<select type="Proficiency" name="Tool Proficiency (Custom)" supports="Tool" optional="true"/>
+			<select type="Language" (Custom)" supports="Standard|Exotic"/>
+		</rules>
+	</element>
+</elements>
