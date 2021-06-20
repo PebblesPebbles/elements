@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Custom Background</name>
+		<name>CustomOneEach</name>
 		<description>Custom background for selecting skills, 1 tool proficiency and 1 language</description>
 		<update version="0.0.1">
 			<file name="CustomOneEach.xml" url="https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomOneEach.xml" />
