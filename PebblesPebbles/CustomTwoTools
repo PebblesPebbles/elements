@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>CustomTwoTools</name>
+		<name>Custom Background</name>
 		<description>Custom background for selecting skills and tool proficiencies</description>
 		<update version="0.0.1">
 			<file name="CustomTwoTools.xml" url="https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoTools.xml" />
 		</update>
 	</info>
 
-	<element name="Custom Background" type="Background" source="Homebrew" id="ID_PR_BACKGROUND_CUSTOM">
+	<element name="Custom Background 1" type="Background" source="Homebrew" id="ID_PR_BACKGROUND_CUSTOM">
 		<description>
 			<p>You have your own personal background, unlike that of any person before you. With an eclectic set of skills you set out to conquor the obstacles that live throws in front of you. Whether these skills prove usefull, only time will tell.</p>
 			<ul>
