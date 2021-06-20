@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Custom Background</name>
-		<description>Custom background for selecting skills, tool proficiencies and languages</description>
+		<description>Custom background for selecting skills and languages</description>
 		<update version="0.0.1">
 			<file name="CustomTwoLanguages.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoLanguages.xml" />
 		</update>
