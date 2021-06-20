@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Custom Background</name>
+		<description>Custom background for selecting skills, tool proficiencies and languages</description>
+		<update version="0.0.1">
+			<file name="Custom1.xml" url=https://github.com/PebblesPebbles/elements/PebblesPebbles/CustomTwoTools.xml" />
+		</update>
+	</info>
+
+	<element name="Custom Background" type="Background" source="Homebrew" id="ID_PR_BACKGROUND_CUSTOM">
+		<description>
+			<p>You have your own personal background, unlike that of any person before you. With an eclectic set of skills you set out to conquor the obstacles that live throws in front of you. Whether these skills prove usefull, only time will tell.</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> You can select any two skills to be proficient</li>
+				<li><strong>Tool Proficiencies and Languages (Optional):</strong> You can select two types of tools</li>
+			</ul>
+			<div element="ID_NV_TGHC_BACKGROUND_FEATURE_GUILD_MEMBER" />
+		</description>
+		<setters>
+
+			<set name="short">2 Skills, 2 Tool Proficiencies</set>
+
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Champion)" supports="Skill" number="2" />
+			<select type="Proficiency" name="Tool Proficiency (Champion)" supports="Tool" optional="true number 2"/>
+		</rules>
+	</element>
+</elements>
